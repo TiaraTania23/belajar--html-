@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.table-1 {
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.table-1 td {
+  padding: 3px;
+}
+
+.table-2 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-2 th,
+.table-2 td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.table-2 th {
+  text-align: left;
+}
+
+.table-2 td:last-child {
+  text-align: right;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #bebebe;
+  color: rgb(10, 2, 2);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
