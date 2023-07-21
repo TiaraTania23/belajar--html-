@@ -1,10 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .table-1 {
   border-collapse: collapse;
-  width: 50%;
+  width: 40%;
   margin-bottom: 20px;
 }
 
@@ -14,13 +14,13 @@ body {
 
 .table-2 {
   border-collapse: collapse;
-  width: 100%;
+  width: 550px;
 }
 
 .table-2 th,
 .table-2 td {
   border: 1px solid black;
-  padding: 8px;
+  padding: 5px;
 }
 
 .table-2 th {
@@ -32,14 +32,9 @@ body {
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #bebebe;
-  color: rgb(10, 2, 2);
-  border: none;
+  padding: 3px;
   cursor: pointer;
+  background-color: #bebebe;
+  margin-bottom: 15px;
   font-weight: bold;
-}
-
-button:hover {
-  background-color: #45a049;
 }
